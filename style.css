@@ -1,0 +1,55 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #app {
+    display: inline-block;
+    border: solid 10px #2e3286;
+    box-shadow: 0 0 40px rgb(79, 193, 231);
+  }
+  
+  .player {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .row {
+    width: 400;
+    margin: 0 auto;
+    line-height: 0;
+  }
+  
+  .row div {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .row div .game-piece {
+    position: absolute;
+    border: none;
+    height: 50px;
+    width: 50px;
+    
+    font-style: normal;
+    font-size: 2.2em;
+    line-height: normal;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: text-shadow 0.3s;
+  }
+  
+  .row div .active {
+    text-shadow: 10px -10px 10px rgb(139, 34, 34);
+  }
+  
+  .white {
+    background: gold;
+  }
+  
+  .grey {
+    background: green;
+  }
