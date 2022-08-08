@@ -380,4 +380,3 @@ var game = {
   } 
 }
 game.init();
-// https://www.youtube.com/watch?v=cf5865m3UgU
